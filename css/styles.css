@@ -25,7 +25,7 @@ img {
 }
 
 main {
-  margin-top: 81px;
+  margin-top: 63px;
 }
 
 /* ヘッダー */
@@ -263,22 +263,80 @@ footer p {
     }
 }
 @media (max-width: 600px) {
+  /* header */
+  .logo {
+    width: 54px;
+    height: 40px;
+  }
+  .main_top {
+    margin-top: 0px;
+  }
+  .section_h1 {
+    font-size: 15px;
+  }
+  .section_h2 {
+    font-size: 13px;
+  }
   /* company.html */
-table {
-  width: 80%;
+.h2 {
+  font-size: 20px;
+  padding-top: 50px; 
+}
+.overview {
+  width: 85%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 th {
   width: 30%;
+  font-size: 12px;
 }
+td {
+  font-size: 12px;
+}
+/* humburger-menu */
 .overview tr.company_td6 {
   display: none;
 }
 .overview tr.company_sp_td6 {
   display: table-row;
 }
-
+.overlay #close {
+  top: 16px;
+}
+.close_nav {
+  margin-right: 0;
+}
+.close_ul {
+  padding-left: 0;
+  margin: 0 auto;
+}
+.close_ul li {
+  margin-left: 0;
+}
 /* contact.html */
+table {
+  width: 85%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .map {
-  width: 80%;
+  width: 85%;
+}
+.sp-menu #open {
+  margin: 0 20px 0 0;
+}
+.p {
+  font-size: 12px;
+  margin-top: 10px;
+
+}
+.h2_2 {
+  font-size: 15px; 
+}
+.p2 {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 }
