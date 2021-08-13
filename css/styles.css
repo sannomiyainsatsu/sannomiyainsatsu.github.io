@@ -246,21 +246,21 @@ footer p {
     cursor: pointer;
   }
 
-    .main_top_sp {
-      display: block;
-      background-image: url(../img/top_bg2.jpg);
-      background-size: cover;
-      min-height: 548px;
-    }
-    .main_top_sp h2 {
-      color: #193278;
-      text-align: center;
-      padding-top: 200px;
-      font-weight: bold;
-    }
-    .main_top_sp p {
-      color: #432;
-    }
+  .main_top_sp {
+    display: block;
+    background-image: url(../img/top_bg2.jpg);
+    background-size: cover;
+    min-height: 548px;
+  }
+  .main_top_sp h2 {
+    color: #193278;
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
+  }
+  .main_top_sp p {
+    color: #432;
+  }
 }
 @media (max-width: 600px) {
   /* header */
@@ -314,6 +314,9 @@ td {
 .close_ul li {
   margin-left: 0;
 }
+.close_ul a {
+  font-size: 15px
+}
 /* contact.html */
 table {
   width: 85%;
@@ -322,6 +325,7 @@ table {
 }
 .map {
   width: 85%;
+
 }
 .sp-menu #open {
   margin: 0 20px 0 0;
